@@ -1,0 +1,743 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_001",
+      "name": "Dr. Evelyn Reed",
+      "email": "admin@srms.org",
+      "passwordHash": "$2b$10$gDfXchi9AyLIHepWF4jxMeNt4uZZLOmxyJWnmPbKVZcnOVh3fo9Z6",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "profile": {
+        "department": "Executive Operations",
+        "title": "Lead Systems Director & Admin",
+        "phone": "+1 (555) 019-2834",
+        "bio": "Oversees platform governance, audit oversight, and system-wide enterprise report compliance."
+      },
+      "createdAt": "2026-01-10T08:00:00.000Z",
+      "updatedAt": "2026-10-20T13:56:16.482Z"
+    },
+    {
+      "id": "usr_staff_002",
+      "name": "Sarah Chen",
+      "email": "sarah.engineer@srms.org",
+      "passwordHash": "$2b$10$WsHLFkAiSV4ILL8z2yT3yOuwAa9BgNXRcIk/ZpusdokcZyl5VFTrq",
+      "role": "STAFF",
+      "status": "ACTIVE",
+      "profile": {
+        "department": "Infrastructure & Platform",
+        "title": "Senior DevOps Architect",
+        "phone": "+1 (555) 019-8742",
+        "bio": "Manages multi-region cloud clusters, automated CI/CD deployments, and telemetry infrastructure."
+      },
+      "createdAt": "2026-01-15T09:30:00.000Z",
+      "updatedAt": "2026-10-20T13:56:16.482Z"
+    },
+    {
+      "id": "usr_staff_003",
+      "name": "Marcus Vance",
+      "email": "marcus.vance@srms.org",
+      "passwordHash": "$2b$10$WsHLFkAiSV4ILL8z2yT3yOuwAa9BgNXRcIk/ZpusdokcZyl5VFTrq",
+      "role": "STAFF",
+      "status": "ACTIVE",
+      "profile": {
+        "department": "Security & Incident Response",
+        "title": "Principal Security Analyst",
+        "phone": "+1 (555) 019-3321",
+        "bio": "Specializes in vulnerability mitigation, zero-trust perimeter auditing, and forensic investigations."
+      },
+      "createdAt": "2026-02-01T10:00:00.000Z",
+      "updatedAt": "2026-10-20T13:56:16.482Z"
+    },
+    {
+      "id": "usr_viewer_004",
+      "name": "Alex Mercer",
+      "email": "alex.auditor@srms.org",
+      "passwordHash": "$2b$10$4hEWlv.9sKH3pkxT8OK3Peo1l7lNi2oi/WQ0LU6M0SSTmTCmg6TPS",
+      "role": "VIEWER",
+      "status": "ACTIVE",
+      "profile": {
+        "department": "Internal Quality & Audit",
+        "title": "Senior Regulatory Auditor",
+        "phone": "+1 (555) 019-5561",
+        "bio": "Conducts read-only compliance assessments, SOX reviews, and executive reporting audits."
+      },
+      "createdAt": "2026-02-10T11:00:00.000Z",
+      "updatedAt": "2026-10-20T13:56:16.482Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_tech",
+      "name": "Technical & Architecture",
+      "description": "Systems design, infrastructure upgrades, database migrations, and performance benchmarks.",
+      "color": "#2563eb",
+      "active": true,
+      "createdBy": "usr_admin_001",
+      "createdAt": "2026-01-10T08:00:00.000Z"
+    },
+    {
+      "id": "cat_incident",
+      "name": "Incident & Outage",
+      "description": "Post-mortem analyses, emergency responses, root-cause investigations, and remediation plans.",
+      "color": "#dc2626",
+      "active": true,
+      "createdBy": "usr_admin_001",
+      "createdAt": "2026-01-10T08:00:00.000Z"
+    },
+    {
+      "id": "cat_operations",
+      "name": "Daily Operations",
+      "description": "Daily activity briefings, shift handovers, operational checklists, and resource utilization.",
+      "color": "#059669",
+      "active": true,
+      "createdBy": "usr_admin_001",
+      "createdAt": "2026-01-10T08:00:00.000Z"
+    },
+    {
+      "id": "cat_research",
+      "name": "Research & Development",
+      "description": "Empirical experiments, technological feasibility studies, machine learning trials, and prototypes.",
+      "color": "#7c3aed",
+      "active": true,
+      "createdBy": "usr_admin_001",
+      "createdAt": "2026-01-10T08:00:00.000Z"
+    },
+    {
+      "id": "cat_financial",
+      "name": "Business & Financial",
+      "description": "Budget allocations, vendor cost evaluations, quarterly revenue reports, and fiscal audits.",
+      "color": "#d97706",
+      "active": true,
+      "createdBy": "usr_admin_001",
+      "createdAt": "2026-01-10T08:00:00.000Z"
+    },
+    {
+      "id": "cat_academic",
+      "name": "Academic & University",
+      "description": "Departmental curriculum reviews, lab equipment grants, student evaluations, and faculty publications.",
+      "color": "#0891b2",
+      "active": true,
+      "createdBy": "usr_admin_001",
+      "createdAt": "2026-01-10T08:00:00.000Z"
+    }
+  ],
+  "reports": [
+    {
+      "referenceId": "REP-2026-0011",
+      "title": "Global CDN Edge Caching and HTTP/3 Protocol Evaluation",
+      "categoryId": "cat_tech",
+      "categoryName": "Technical & Architecture",
+      "reportType": "Business",
+      "reportingDate": "2026-10-20",
+      "reportingPeriod": "",
+      "department": "Infrastructure & Platform",
+      "projectName": "",
+      "summary": "Comprehensive telemetry evaluation of modern HTTP/3 protocols demonstrating a 31% reduction in Time to First Byte (TTFB).",
+      "background": "",
+      "objectives": "",
+      "description": "Conducted synthetic and canary customer traffic routing through distributed worldwide edge locations to measure packet retransmission and connection resumption.",
+      "activities": "",
+      "findings": "",
+      "results": "",
+      "challenges": "",
+      "recommendations": "",
+      "conclusion": "",
+      "notes": "",
+      "status": "Submitted",
+      "priority": "Medium",
+      "tags": [],
+      "visibility": "Internal",
+      "author": {
+        "id": "usr_staff_002",
+        "name": "Sarah Chen",
+        "email": "sarah.engineer@srms.org",
+        "department": "Infrastructure & Platform"
+      },
+      "ownerId": "usr_staff_002",
+      "attachments": [],
+      "revisionHistory": [
+        {
+          "version": 2,
+          "editedBy": "usr_staff_002",
+          "editedByName": "Sarah Chen",
+          "editedAt": "2026-10-20T13:59:29.243Z",
+          "changesSummary": "Report submitted for review.",
+          "status": "Submitted"
+        },
+        {
+          "version": 1,
+          "editedBy": "usr_staff_002",
+          "editedByName": "Sarah Chen",
+          "editedAt": "2026-10-20T13:59:00.288Z",
+          "changesSummary": "Initial draft created.",
+          "status": "Draft"
+        }
+      ],
+      "reviewNotes": "",
+      "id": "rep_1792504740288_x9yp",
+      "version": 2,
+      "createdAt": "2026-10-20T13:59:00.288Z",
+      "updatedAt": "2026-10-20T13:59:29.243Z"
+    },
+    {
+      "id": "rep_001",
+      "referenceId": "REP-2026-0001",
+      "title": "Q3 Enterprise Distributed Database Migration & Latency Benchmark",
+      "categoryId": "cat_tech",
+      "categoryName": "Technical & Architecture",
+      "reportType": "Technical",
+      "reportingDate": "2026-10-15",
+      "reportingPeriod": "Q3 2026",
+      "department": "Infrastructure & Platform",
+      "projectName": "Project Titan Database Modernization",
+      "summary": "Completed end-to-end migration of legacy transactional storage to distributed multi-region clusters with a 42% reduction in p99 read latency.",
+      "background": "Legacy single-node PostgreSQL reached 88% peak I/O capacity during high-volume reporting hours, risking cascading connection pool failures.",
+      "objectives": "1. Migrate 18.4M records with zero downtime.\n2. Ensure zero data loss during streaming replication.\n3. Verify read replica latency remains below 15ms globally.",
+      "description": "The infrastructure engineering group executed a phased blue/green cutover utilizing dual-write replication and strict CDC (Change Data Capture) validation over a 72-hour observation window.",
+      "activities": "Configured automated snapshot validation, verified cross-region sync on AWS/GCP interconnects, simulated synthetic traffic spikes up to 45,000 req/sec, and validated schema integrity.",
+      "findings": "Connection pool saturation dropped from 94% to 18%. p99 latency decreased from 145ms to 84ms across European and North American edge nodes.",
+      "results": "Migration completed with exactly zero dropped transactions and clean data integrity checks.",
+      "challenges": "Network jitter on secondary VPN link required manual MTU optimization and TCP window resizing.",
+      "recommendations": "Implement automated schema migration checks in the CI/CD pipeline and enable proactive disk autoscaling.",
+      "conclusion": "The new distributed database cluster is certified for general production traffic.",
+      "notes": "Signed off by Infrastructure Architecture Lead.",
+      "status": "Approved",
+      "priority": "High",
+      "tags": [
+        "Database",
+        "Migration",
+        "Infrastructure",
+        "Performance"
+      ],
+      "author": {
+        "id": "usr_staff_002",
+        "name": "Sarah Chen",
+        "email": "sarah.engineer@srms.org",
+        "department": "Infrastructure & Platform"
+      },
+      "ownerId": "usr_staff_002",
+      "visibility": "Internal",
+      "attachments": [
+        {
+          "id": "att_01",
+          "name": "benchmark_latency_graphs.pdf",
+          "size": 2450000,
+          "type": "application/pdf",
+          "uploadedAt": "2026-10-15T14:20:00.000Z"
+        }
+      ],
+      "version": 2,
+      "revisionHistory": [
+        {
+          "version": 1,
+          "editedBy": "usr_staff_002",
+          "editedByName": "Sarah Chen",
+          "editedAt": "2026-10-14T11:00:00.000Z",
+          "changesSummary": "Initial draft with migration metrics.",
+          "status": "Submitted"
+        },
+        {
+          "version": 2,
+          "editedBy": "usr_admin_001",
+          "editedByName": "Dr. Evelyn Reed",
+          "editedAt": "2026-10-15T16:00:00.000Z",
+          "changesSummary": "Approved report with executive commentary.",
+          "status": "Approved"
+        }
+      ],
+      "reviewNotes": "Outstanding execution and comprehensive telemetry graphs. Approved.",
+      "createdAt": "2026-10-14T11:00:00.000Z",
+      "updatedAt": "2026-10-15T16:00:00.000Z"
+    },
+    {
+      "id": "rep_002",
+      "referenceId": "REP-2026-0002",
+      "title": "Post-Incident Analysis: API Gateway Rate Limiter Throttling Incident",
+      "categoryId": "cat_incident",
+      "categoryName": "Incident & Outage",
+      "reportType": "Incident",
+      "reportingDate": "2026-10-18",
+      "reportingPeriod": "October 2026",
+      "department": "Security & Incident Response",
+      "projectName": "Gateway Reliability",
+      "summary": "Root cause analysis and mitigation protocol following a 14-minute intermittent 429 throttling window impacting external webhooks.",
+      "background": "At 10:14 UTC, our public webhook ingestion ingress began rejecting valid enterprise telemetry payloads with HTTP 429 Too Many Requests.",
+      "objectives": "Diagnose Redis rate-limiter cluster partition, identify missing exponential backoff in client SDK, and restore ingress throughput.",
+      "description": "A misconfigured Redis memory eviction policy triggered temporary key eviction storms, causing the token bucket algorithm to default to rejection mode.",
+      "activities": "Isolated failed cluster nodes, patched Redis maxmemory-policy to volatile-lru, rolled out hotfix v4.2.1, and replayed queued webhooks.",
+      "findings": "Zero data lost due to secondary dead-letter disk queues. All 34,200 delayed events reprocessed cleanly within 18 minutes of resolution.",
+      "results": "Full gateway traffic normalized by 10:28 UTC. Redundant Redis replica pair established.",
+      "challenges": "Simultaneous alert storm triggered notification throttling for on-call engineers.",
+      "recommendations": "Decouple emergency ingress alerting from public notification channels and enforce distributed token leasing.",
+      "conclusion": "Incident fully mitigated; preventative action items assigned to Platform Security.",
+      "notes": "Severity: P2 Incident. SLA impact: 0.02% monthly availability drop.",
+      "status": "Approved",
+      "priority": "Urgent",
+      "tags": [
+        "Incident",
+        "Gateway",
+        "Security",
+        "Post-Mortem"
+      ],
+      "author": {
+        "id": "usr_staff_003",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@srms.org",
+        "department": "Security & Incident Response"
+      },
+      "ownerId": "usr_staff_003",
+      "visibility": "Internal",
+      "attachments": [],
+      "version": 1,
+      "revisionHistory": [
+        {
+          "version": 1,
+          "editedBy": "usr_staff_003",
+          "editedByName": "Marcus Vance",
+          "editedAt": "2026-10-18T12:00:00.000Z",
+          "changesSummary": "Initial incident report compilation.",
+          "status": "Approved"
+        }
+      ],
+      "reviewNotes": "Verified root cause and confirmed preventative guardrails are in place.",
+      "createdAt": "2026-10-18T11:45:00.000Z",
+      "updatedAt": "2026-10-18T13:30:00.000Z"
+    },
+    {
+      "id": "rep_003",
+      "referenceId": "REP-2026-0003",
+      "title": "Daily Platform Operations & Automated Cluster Health Briefing",
+      "categoryId": "cat_operations",
+      "categoryName": "Daily Operations",
+      "reportType": "Daily Activity",
+      "reportingDate": "2026-10-19",
+      "reportingPeriod": "Daily",
+      "department": "Infrastructure & Platform",
+      "summary": "Standard daily briefing covering container node health, backup verification, and SSL certificate rotation cycles.",
+      "description": "All 48 Kubernetes worker nodes operated at 41% average CPU utilization and 62% memory allocation throughout the 24-hour cycle.",
+      "activities": "Completed routine log rotation, executed cold storage database snapshot verifications, and rotated ingress TLS certificates.",
+      "findings": "Disk space on Elasticsearch cluster node es-03 passed 75% threshold; cleanup routine freed 380GB.",
+      "results": "100% of automated smoke tests passed without manual intervention.",
+      "recommendations": "Schedule automated purge of staging debug logs older than 14 days.",
+      "status": "Submitted",
+      "priority": "Low",
+      "tags": [
+        "Operations",
+        "Daily",
+        "Kubernetes",
+        "Health"
+      ],
+      "author": {
+        "id": "usr_staff_002",
+        "name": "Sarah Chen",
+        "email": "sarah.engineer@srms.org",
+        "department": "Infrastructure & Platform"
+      },
+      "ownerId": "usr_staff_002",
+      "visibility": "Public",
+      "attachments": [],
+      "version": 1,
+      "revisionHistory": [
+        {
+          "version": 1,
+          "editedBy": "usr_staff_002",
+          "editedByName": "Sarah Chen",
+          "editedAt": "2026-10-19T17:00:00.000Z",
+          "changesSummary": "Submitted daily operations briefing.",
+          "status": "Submitted"
+        }
+      ],
+      "createdAt": "2026-10-19T17:00:00.000Z",
+      "updatedAt": "2026-10-19T17:00:00.000Z"
+    },
+    {
+      "id": "rep_004",
+      "referenceId": "REP-2026-0004",
+      "title": "Deep Learning Model Compression & Quantization Feasibility Study",
+      "categoryId": "cat_research",
+      "categoryName": "Research & Development",
+      "reportType": "Research",
+      "reportingDate": "2026-10-20",
+      "reportingPeriod": "H2 2026",
+      "department": "Research & Intelligence Lab",
+      "projectName": "Edge AI Acceleration",
+      "summary": "Evaluation of 4-bit and 8-bit post-training quantization on proprietary vision models with target inference on constrained edge hardware.",
+      "description": "Benchmarked FP16 baseline against INT8 and INT4 quantization schemes across 12,000 real-world test images.",
+      "activities": "Executed calibration runs using representative validation datasets, measured perplexity shift, and profiled GPU vRAM allocation.",
+      "findings": "INT8 quantization preserved 99.4% of top-1 accuracy while reducing model memory footprint from 6.8GB to 1.7GB (75% savings).",
+      "results": "Achieved sub-18ms inference per image on edge micro-processors.",
+      "challenges": "Slight accuracy degradation on low-contrast nighttime captures in 4-bit mode.",
+      "recommendations": "Adopt INT8 for all production edge deployments and preserve FP16 for cloud server-side verification pipelines.",
+      "status": "Approved",
+      "priority": "Medium",
+      "tags": [
+        "AI",
+        "Quantization",
+        "Research",
+        "EdgeComputing"
+      ],
+      "author": {
+        "id": "usr_staff_003",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@srms.org",
+        "department": "Security & Incident Response"
+      },
+      "ownerId": "usr_staff_003",
+      "visibility": "Confidential",
+      "attachments": [],
+      "version": 2,
+      "revisionHistory": [
+        {
+          "version": 2,
+          "editedBy": "usr_admin_001",
+          "editedByName": "Dr. Evelyn Reed",
+          "editedAt": "2026-10-20T13:57:50.396Z",
+          "changesSummary": "Report approved: Certified by Dr. Reed. Quantization benchmarks verified for production.",
+          "status": "Approved"
+        },
+        {
+          "version": 1,
+          "editedBy": "usr_staff_003",
+          "editedByName": "Marcus Vance",
+          "editedAt": "2026-10-20T03:00:00.000Z",
+          "changesSummary": "Submitted for peer and admin review.",
+          "status": "Under Review"
+        }
+      ],
+      "createdAt": "2026-10-20T02:30:00.000Z",
+      "updatedAt": "2026-10-20T13:57:50.396Z",
+      "reviewNotes": "Certified by Dr. Reed. Quantization benchmarks verified for production."
+    },
+    {
+      "id": "rep_005",
+      "referenceId": "REP-2026-0005",
+      "title": "Annual Cloud Infrastructure Budget & Multi-Cloud Cost Optimization Draft",
+      "categoryId": "cat_financial",
+      "categoryName": "Business & Financial",
+      "reportType": "Business",
+      "reportingDate": "2026-10-12",
+      "reportingPeriod": "FY 2026-2027",
+      "department": "Executive Operations",
+      "projectName": "FinOps Efficiency Project",
+      "summary": "Comprehensive analysis of multi-cloud compute, egress traffic, and reserved instance utilization projecting $480,000 annual savings.",
+      "description": "Detailed financial modeling of existing cloud expenditures with recommendations for 3-year compute savings plans.",
+      "status": "Draft",
+      "priority": "High",
+      "tags": [
+        "Finance",
+        "Budget",
+        "FinOps",
+        "CostSaving"
+      ],
+      "author": {
+        "id": "usr_admin_001",
+        "name": "Dr. Evelyn Reed",
+        "email": "admin@srms.org",
+        "department": "Executive Operations"
+      },
+      "ownerId": "usr_admin_001",
+      "visibility": "Confidential",
+      "attachments": [],
+      "version": 1,
+      "revisionHistory": [
+        {
+          "version": 1,
+          "editedBy": "usr_admin_001",
+          "editedByName": "Dr. Evelyn Reed",
+          "editedAt": "2026-10-12T09:00:00.000Z",
+          "changesSummary": "Initial draft calculation.",
+          "status": "Draft"
+        }
+      ],
+      "createdAt": "2026-10-12T09:00:00.000Z",
+      "updatedAt": "2026-10-12T09:00:00.000Z"
+    },
+    {
+      "id": "rep_006",
+      "referenceId": "REP-2026-0006",
+      "title": "Legacy Monolith Deprecation: Deprecated Subsystem Decommissioning",
+      "categoryId": "cat_tech",
+      "categoryName": "Technical & Architecture",
+      "reportType": "Technical",
+      "reportingDate": "2026-09-28",
+      "reportingPeriod": "Q3 2026",
+      "department": "Infrastructure & Platform",
+      "summary": "Formal documentation archiving the retirement of legacy billing monolith v1 and redirecting all legacy endpoints to modern microservices.",
+      "description": "Decommissioned 6 bare-metal server chassis, revoked obsolete API keys, and archived cold database backups to write-once WORM storage.",
+      "status": "Archived",
+      "priority": "Low",
+      "tags": [
+        "Deprecation",
+        "Legacy",
+        "Architecture"
+      ],
+      "author": {
+        "id": "usr_staff_002",
+        "name": "Sarah Chen",
+        "email": "sarah.engineer@srms.org",
+        "department": "Infrastructure & Platform"
+      },
+      "ownerId": "usr_staff_002",
+      "visibility": "Internal",
+      "attachments": [],
+      "version": 2,
+      "revisionHistory": [
+        {
+          "version": 1,
+          "editedBy": "usr_staff_002",
+          "editedByName": "Sarah Chen",
+          "editedAt": "2026-09-28T10:00:00.000Z",
+          "changesSummary": "Created archive record.",
+          "status": "Approved"
+        },
+        {
+          "version": 2,
+          "editedBy": "usr_admin_001",
+          "editedByName": "Dr. Evelyn Reed",
+          "editedAt": "2026-09-30T15:00:00.000Z",
+          "changesSummary": "Moved to permanent archive.",
+          "status": "Archived"
+        }
+      ],
+      "createdAt": "2026-09-28T10:00:00.000Z",
+      "updatedAt": "2026-09-30T15:00:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "recipientId": "usr_admin_001",
+      "type": "SUBMISSION",
+      "title": "Report Submitted: REP-2026-0011",
+      "message": "Sarah Chen submitted \"Global CDN Edge Caching and HTTP/3 Protocol Evaluation\" for review.",
+      "reportId": "rep_1792504740288_x9yp",
+      "reportTitle": "Global CDN Edge Caching and HTTP/3 Protocol Evaluation",
+      "id": "notif_1792504769244_2j8",
+      "read": false,
+      "createdAt": "2026-10-20T13:59:29.244Z"
+    },
+    {
+      "recipientId": "usr_staff_003",
+      "type": "APPROVAL",
+      "title": "Report Approved: REP-2026-0004",
+      "message": "Dr. Evelyn Reed approved \"Deep Learning Model Compression & Quantization Feasibility Study\".",
+      "reportId": "rep_004",
+      "reportTitle": "Deep Learning Model Compression & Quantization Feasibility Study",
+      "id": "notif_1792504670397_p7d",
+      "read": false,
+      "createdAt": "2026-10-20T13:57:50.397Z"
+    },
+    {
+      "id": "notif_001",
+      "recipientId": "usr_staff_002",
+      "type": "APPROVAL",
+      "title": "Report Approved: REP-2026-0001",
+      "message": "Dr. Evelyn Reed approved your report \"Q3 Enterprise Distributed Database Migration & Latency Benchmark\".",
+      "reportId": "rep_001",
+      "reportTitle": "Q3 Enterprise Distributed Database Migration & Latency Benchmark",
+      "read": false,
+      "createdAt": "2026-10-15T16:00:00.000Z"
+    },
+    {
+      "id": "notif_002",
+      "recipientId": "usr_admin_001",
+      "type": "SUBMISSION",
+      "title": "New Report Submitted for Review",
+      "message": "Marcus Vance submitted report \"Deep Learning Model Compression & Quantization Feasibility Study\" (REP-2026-0004).",
+      "reportId": "rep_004",
+      "reportTitle": "Deep Learning Model Compression & Quantization Feasibility Study",
+      "read": false,
+      "createdAt": "2026-10-20T03:00:00.000Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "actor": {
+        "id": "usr_admin_001",
+        "name": "Dr. Evelyn Reed",
+        "email": "admin@srms.org",
+        "role": "ADMIN"
+      },
+      "action": "AUTH_LOGIN",
+      "targetType": "AUTH",
+      "targetId": "usr_admin_001",
+      "targetName": "Dr. Evelyn Reed",
+      "metadata": {
+        "role": "ADMIN"
+      },
+      "ip": "127.0.0.1",
+      "id": "log_1792516794054_ncoz",
+      "timestamp": "2026-10-20T17:19:54.054Z"
+    },
+    {
+      "actor": {
+        "id": "usr_staff_002",
+        "name": "Sarah Chen",
+        "email": "sarah.engineer@srms.org",
+        "role": "STAFF"
+      },
+      "action": "AUTH_LOGIN",
+      "targetType": "AUTH",
+      "targetId": "usr_staff_002",
+      "targetName": "Sarah Chen",
+      "metadata": {
+        "role": "STAFF"
+      },
+      "ip": "127.0.0.1",
+      "id": "log_1792516695168_z65q",
+      "timestamp": "2026-10-20T17:18:15.168Z"
+    },
+    {
+      "actor": {
+        "id": "anonymous",
+        "name": "Anonymous",
+        "email": "isman@gmail.com",
+        "role": "VIEWER"
+      },
+      "action": "AUTH_FAILED",
+      "targetType": "AUTH",
+      "targetId": "auth_attempt",
+      "targetName": "isman@gmail.com",
+      "metadata": {
+        "reason": "User not found"
+      },
+      "ip": "127.0.0.1",
+      "id": "log_1792516682921_0pjk",
+      "timestamp": "2026-10-20T17:18:02.921Z"
+    },
+    {
+      "actor": {
+        "id": "usr_staff_002",
+        "name": "Sarah Chen",
+        "email": "sarah.engineer@srms.org",
+        "role": "STAFF"
+      },
+      "action": "REPORT_SUBMITTED",
+      "targetType": "REPORT",
+      "targetId": "rep_1792504740288_x9yp",
+      "targetName": "Global CDN Edge Caching and HTTP/3 Protocol Evaluation",
+      "ip": "127.0.0.1",
+      "id": "log_1792504769243_1i4t",
+      "timestamp": "2026-10-20T13:59:29.243Z"
+    },
+    {
+      "actor": {
+        "id": "usr_staff_002",
+        "name": "Sarah Chen",
+        "email": "sarah.engineer@srms.org",
+        "role": "STAFF"
+      },
+      "action": "REPORT_CREATED",
+      "targetType": "REPORT",
+      "targetId": "rep_1792504740288_x9yp",
+      "targetName": "Global CDN Edge Caching and HTTP/3 Protocol Evaluation",
+      "metadata": {
+        "referenceId": "REP-2026-0011",
+        "status": "Draft"
+      },
+      "ip": "127.0.0.1",
+      "id": "log_1792504740289_09z7",
+      "timestamp": "2026-10-20T13:59:00.289Z"
+    },
+    {
+      "actor": {
+        "id": "usr_staff_002",
+        "name": "Sarah Chen",
+        "email": "sarah.engineer@srms.org",
+        "role": "STAFF"
+      },
+      "action": "AUTH_LOGIN",
+      "targetType": "AUTH",
+      "targetId": "usr_staff_002",
+      "targetName": "Sarah Chen",
+      "metadata": {
+        "role": "STAFF"
+      },
+      "ip": "127.0.0.1",
+      "id": "log_1792504702970_68jh",
+      "timestamp": "2026-10-20T13:58:22.970Z"
+    },
+    {
+      "actor": {
+        "id": "usr_admin_001",
+        "name": "Dr. Evelyn Reed",
+        "email": "admin@srms.org",
+        "role": "ADMIN"
+      },
+      "action": "REPORT_APPROVED",
+      "targetType": "REPORT",
+      "targetId": "rep_004",
+      "targetName": "Deep Learning Model Compression & Quantization Feasibility Study",
+      "metadata": {
+        "reviewNotes": "Certified by Dr. Reed. Quantization benchmarks verified for production."
+      },
+      "ip": "127.0.0.1",
+      "id": "log_1792504670397_zjvu",
+      "timestamp": "2026-10-20T13:57:50.397Z"
+    },
+    {
+      "actor": {
+        "id": "usr_admin_001",
+        "name": "Dr. Evelyn Reed",
+        "email": "admin@srms.org",
+        "role": "ADMIN"
+      },
+      "action": "AUTH_LOGIN",
+      "targetType": "AUTH",
+      "targetId": "usr_admin_001",
+      "targetName": "Dr. Evelyn Reed",
+      "metadata": {
+        "role": "ADMIN"
+      },
+      "ip": "127.0.0.1",
+      "id": "log_1792504604355_4ht6",
+      "timestamp": "2026-10-20T13:56:44.356Z"
+    },
+    {
+      "id": "log_001",
+      "actor": {
+        "id": "usr_admin_001",
+        "name": "Dr. Evelyn Reed",
+        "email": "admin@srms.org",
+        "role": "ADMIN"
+      },
+      "action": "REPORT_APPROVED",
+      "targetType": "REPORT",
+      "targetId": "rep_001",
+      "targetName": "Q3 Enterprise Distributed Database Migration",
+      "metadata": {
+        "referenceId": "REP-2026-0001",
+        "previousStatus": "Submitted"
+      },
+      "timestamp": "2026-10-15T16:00:00.000Z"
+    },
+    {
+      "id": "log_002",
+      "actor": {
+        "id": "usr_staff_003",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@srms.org",
+        "role": "STAFF"
+      },
+      "action": "REPORT_SUBMITTED",
+      "targetType": "REPORT",
+      "targetId": "rep_002",
+      "targetName": "Post-Incident Analysis: API Gateway Rate Limiter",
+      "metadata": {
+        "referenceId": "REP-2026-0002"
+      },
+      "timestamp": "2026-10-18T12:00:00.000Z"
+    }
+  ],
+  "settings": {
+    "appName": "System Report Management System",
+    "organizationName": "Global Defense & Infrastructure Corp.",
+    "reportPrefix": "REP",
+    "timezone": "UTC",
+    "dateFormat": "YYYY-MM-DD",
+    "allowPublicRegistration": false,
+    "defaultVisibility": "Internal",
+    "retentionDays": 365,
+    "updatedAt": "2026-10-20T13:56:16.439Z"
+  },
+  "counter": 11
+}

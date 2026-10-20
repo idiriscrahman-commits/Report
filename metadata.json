@@ -1,0 +1,6 @@
+{
+  "name": "System Report Management System (SRMS)",
+  "description": "Production-oriented full-stack web and mobile PWA to create, save, review, approve, search, filter, print, and export general-purpose reports with role-based access control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
